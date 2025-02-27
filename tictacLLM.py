@@ -5,9 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 # Set up OpenAI API
-# Note: You'll need to set your OPENAI_API_KEY as an environment variable
-# or replace os.getenv("OPENAI_API_KEY") with your actual API key
-#client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Note: You'll need to set your OPENAI_API_KEY as an environment variable in ,env
+# OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 client = OpenAI()
 
 def print_board(board):
